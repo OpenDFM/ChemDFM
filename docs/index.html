@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="ChemDFM-13B-v1.0"/>
+    <meta property="og:description" content="ChemDFM: Dialogue Foundation Model for Chemistry"/>
+    <meta property="og:url" content="URL OF THE WEBSITE"/>
+
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/main.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <meta name="twitter:title" content="ChemDFM-13B-v1.0">
+    <meta name="twitter:description" content="ChemDFM: Dialogue Foundation Model for Chemistry">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/main.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>ChemDFM-13B-v1.0</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/sort-table.js" defer></script>
+    <script src="static/js/index.js"></script>
+
+    <style>
+        code {
+            font-family: 'Consolas', monospace;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">-->
+
+<!--<div class="top-bar">-->
+<!--    <a href="./static/pages/submit.html" class="btn">Submit</a>-->
+<!--</div>-->
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">
+                       <b>ChemDFM</b>: Dialogue Foundation Model for Chemistry</h1>
+                    <div class="is-size-5 publication-authors">
+                        <!-- Paper authors -->
+                        <!-- Paper authors -->
+                        <span class="author-block">
+                                <a href="https://github.com/TravelLeraLone" target="_blank">Zihan Zhao</a><sup>*</sup>,&nbsp;</span>
+                        <span class="author-block">
+                                <a href="https://github.com/311dada" target="_blank">Da Ma</a><sup>*</sup>,&nbsp;</span>
+                        <span class="author-block">
+                                <a href="https://coai-sjtu.github.io" target="_blank">Lu Chen</a><sup>†</sup>,&nbsp;</span>
+                        <span class="author-block">
+                                Liangtai Sun,&nbsp;</span>
+                        <span class="author-block">
+                                Zihao Li,&nbsp;</span>
+                        <span class="author-block">
+                                Hongshen Xu,&nbsp;</span>
+                        <span class="author-block">
+                                <a href="https://github.com/JamesZhutheThird" target="_blank">Zichen Zhu</a>,&nbsp;</span>
+                        <br>
+                        <span class="author-block">
+                                Su Zhu,&nbsp;</span>
+                        <span class="author-block">
+                                Shuai Fan,&nbsp;</span>
+                        <span class="author-block">
+                                Guodong Shen,&nbsp;</span>
+                        <span class="author-block">
+                                Xin Chen,&nbsp;</span>
+                        <span class="author-block">
+                                <a href="https://cs.sjtu.edu.cn/PeopleDetail.aspx?id=76" target="_blank">Kai
+                                    Yu</a><sup>†</sup>&nbsp;</span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block"><a href="https://X-LANCE.sjtu.edu.cn" target="_blank">X-LANCE
+                                    Lab</a>, Department of Computer Science and Engineering<br> MoE Key Lab
+                                of Artificial Intelligence, SJTU AI Institute <br> Shanghai Jiao Tong University,
+                                Shanghai, China</span><br>
+                        <span class="author-block">Suzhou Laboratory, Suzhou, China</span><br>
+                        <span class="author-block">Shanghai Key Laboratory for Molecular Engineering of Chiral Drugs
+                            <br>School of Chemistry and Chemical Engineering<br>Shanghai Jiao Tong University,
+                            Shanghai, China</span><br>
+                        <span class="author-block">AI Speech Co, .Ltd., Suzhou, China</span><br>
+                        <span class="author-block">*Equal contribution</span><br>
+                        <span class="author-block"><a
+                                href="mailto:JamesZhutheThird@sjtu.edu.cn">zhao_mengxin@sjtu.edu.cn</a>,</span>
+                        <span class="author-block"><a
+                                href="mailto:chenlusz@sjtu.edu.cn">chenlusz@sjtu.edu.cn</a>,</span>
+                        <span class="author-block"><a href="mailto:kai.yu@sjtu.edu.cn">kai.yu@sjtu.edu.cn</a></span>
+
+                    </div>
+
+
+                    <!-- ArXiv abstract Link -->
+                    <span class="link-block">
+                  <a href="https://arxiv.org/abs/2401.14818/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+                    <!-- Github link -->
+                    <span class="link-block">
+                            <a href="https://github.com/OpenDFM/ChemDFM" target="_blank"
+                               class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                                <span>Code</span>
+                            </a>
+                        </span>
+
+
+                    <!-- HuggingFace Link -->
+                    <span class="link-block">
+                            <a href="https://huggingface.co/OpenDFM/ChemDFM-13B-v1.0/" target="_blank"
+                               class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon">
+                                    <p style="font-size:20px">&#x1F917;</p>
+                                </span>
+                                <span>Model</span>
+                            </a>
+                        </span>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-small is-light">
+    <div class="container is-max-desktop">
+        <h3 class="subtitle is-size-3-tablet has-text-left pb-">
+
+            <p style="text-align:justify; line-height:150%; margin-left: -75px; margin-right: -75px; font-size: 20px">
+                <img src="static/images/main.png"/>
+
+                <br><br>
+                Large language models (LLMs) have established great success in the general domain of natural language processing. Their emerging task generalization and free-form dialogue capabilities can greatly help to design <b>Chemical General Intelligence (CGI)</b> to assist real-world research in chemistry. However, the existence of specialized language and knowledge in the field of chemistry, such as the highly informative SMILES notation, hinders the performance of general-domain LLMs in chemistry. To this end, we develop <b>ChemDFM</b>, the first LLM towards CGI. ChemDFM-13B is trained on 34B tokens from chemical literature, textbooks, and instructions as well as various data from the general domain. <i>Therefore, it can store, understand, and reason over chemical knowledge and languages while still possessing advanced free-form language comprehension capabilities.</i> Extensive quantitative evaluation shows that ChemDFM can <i>significantly outperform the representative open-sourced LLMs</i>. Moreover, ChemDFM can also <i>surpass GPT-4 on a great portion of chemical tasks, despite the significant size difference</i>. Further qualitative evaluations demonstrate the efficiency and effectiveness of ChemDFM in real-world research scenarios.
+            </p>
+            </h3>
+    </div>
+
+</section>
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+
+                <div class="item">
+                    <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                        Objective Evaluation </h2>
+
+                 <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                        <p style="text-align:center;">
+                            <img src="static/images/objective_performances.png" style="width: 100%; height: 100%"/>
+                        </p>
+                        <p>
+                            <br>
+                            &#9658<b>ChemDFM-13B</b> greatly outperforms the representative open-sourced LLMs on typical chemical tasks. <br>
+                            &#9658<b>ChemDFM-13B</b> achieves comparable or even better performances than GPT-4 on a great portion of chemical tasks, despite the significant size difference.
+                        </p>
+                    </h3>
+                </div>
+
+
+
+                <div class="item">
+                    <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                        Human Evaluation: Question Answering
+                    </h2>
+                    <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                        <p style="text-align:center;">
+                            <img src="static/images/human_evaluation_QA.png" style="width: 90%; height: 100%"/>
+                        </p>
+
+                        <p>
+                            We mark <span style="color: #548235; ">the correct and relevant information</span> in the replies in green, <span
+                                style="color: #C55A11; ">the correct but irrelevant information</span> in yellow, and <span
+                                style="color: #C00000; ">the wrong information in red</span>. In addition, <b>the key points of the answer</b> are marked in bold if they appear in the reply.
+                            <br>
+                            The results show that while open-sourced LLMs perform well when asked about existing knowledge (Q1), <i>only ChemDFM can provide correct and comprehensive answers when questions involve new molecules and reactions</i> (Q2 <a href="https://pubs.acs.org/doi/10.1021/jacs.3c07044" target="_blank">[Yin et al., 2023]</a> & Q3 <a href="https://www.sciencedirect.com/science/article/pii/S1385894723030966" target="_blank">[Dargo et al., 2023]</a>)
+                        </p>
+                    </h3>
+                </div>
+
+
+
+                <div class="item">
+                    <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+                        Human Evaluation: Dialogue
+                    </h2>
+                    <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+                        <p style="text-align:center;">
+                            <img src="static/images/human_evaluation_dialogue.png" style="width: 75%; height: 100%"/>
+                        </p>
+
+                        <p>
+                            <br>
+                            The above conversation is also inspired by <a href="https://pubs.acs.org/doi/10.1021/jacs.3c07044" target="_blank">Yin et al.[2023]</a>. In the dialogue, ChemDFM shows promising capabilities regarding <b>error correction</b> (Round 2) and <b>detailing</b> (Round 3) when <b>handling real-world research scenarios</b>.
+                        </p>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End image carousel -->
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@misc{zhao2024chemdfm,
+    title={ChemDFM: Dialogue Foundation Model for Chemistry},
+    author={Zihan Zhao and Da Ma and Lu Chen and Liangtai Sun and Zihao Li and Hongshen Xu and Zichen Zhu and Su Zhu and Shuai Fan and Guodong Shen and Xin Chen and Kai Yu},
+    year={2024},
+    eprint={2401.14818},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}</code></pre></div>
+</section>
+<!--End BibTex citation -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+
+                    <p style="color:gray;font-size:9.9px;">
+                        This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+</body>
+</html>
