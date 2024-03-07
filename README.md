@@ -1,12 +1,3 @@
----
-license: apache-2.0
-pipeline_tag: text-generation
-tags:
-- chemistry
-language:
-- en
-- zh
----
 # ChemDFM-13B: An LLM-Based Dialogue Foundation Model for Chemistry
 
 ![Main Image](https://github.com/OpenDFM/ChemDFM/raw/main/docs/static/images/main.png)
