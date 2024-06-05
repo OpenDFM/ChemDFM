@@ -6,8 +6,9 @@ ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry a
 
 ## News
 
-* **2024-03-12**: The parameter of ChemLLM-13B is open-sourced!
-* **2024-01-26**: The paper of ChemLLM-13B is released on arXiv: [ChemDFM: Dialogue Foundation Model for Chemistry](https://arxiv.org/abs/2401.14818)
+* **2024-04-17**: The evaluation data (including instructions) we used in our paper is released on [GitHub](https://github.com/OpenDFM/ChemDFM)
+* **2024-03-12**: The parameter of ChemDFM-13B is open-sourced!
+* **2024-01-26**: The paper of ChemDFM-13B is released on arXiv: [ChemDFM: Dialogue Foundation Model for Chemistry](https://arxiv.org/abs/2401.14818)
 
 ## Usage Details
 
