@@ -6,6 +6,7 @@ ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry a
 
 ## News
 
+* **2024-06-13**: The results on the comprehensive science benchmark [SciKnowEval](https://huggingface.co/datasets/hicai-zju/SciKnowEval) show that "ChemDFM emerged as one of the top open-source models by continuing pre-training and fine-tuning on a vast corpus of scientific literature".
 * **2024-04-17**: The evaluation data (including instructions) we used in our paper is released on [GitHub](https://github.com/OpenDFM/ChemDFM)
 * **2024-03-12**: The parameter of ChemDFM-13B is open-sourced!
 * **2024-01-26**: The paper of ChemDFM-13B is released on arXiv: [ChemDFM: Dialogue Foundation Model for Chemistry](https://arxiv.org/abs/2401.14818)
