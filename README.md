@@ -6,9 +6,10 @@ ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry a
 
 ## News
 
+* **2024-11-09**: [ChemDFM-v1.5-8B](https://huggingface.co/OpenDFM/ChemDFM-v1.5-8B) is released! We implemented our domain pre-training and instruction tuning precedure on a stronger base model LLaMA-3-8B.
 * **2024-06-13**: The results on the comprehensive science benchmark [SciKnowEval](https://huggingface.co/datasets/hicai-zju/SciKnowEval) show that "ChemDFM emerged as one of the top open-source models by continuing pre-training and fine-tuning on a vast corpus of scientific literature".
 * **2024-04-17**: The evaluation data (including instructions) we used in our paper is released on [GitHub](https://github.com/OpenDFM/ChemDFM)
-* **2024-03-12**: The parameter of ChemDFM-13B is open-sourced!
+* **2024-03-12**: The parameter of [ChemDFM-13B](https://huggingface.co/OpenDFM/ChemDFM-13B-v1.0) is open-sourced!
 * **2024-01-26**: The paper of ChemDFM-13B is released on arXiv: [ChemDFM: Dialogue Foundation Model for Chemistry](https://arxiv.org/abs/2401.14818)
 
 ## Usage Details
@@ -23,7 +24,7 @@ To load and run ChemDFM locally, here is an example:
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
 
-model_name_or_id = "X-LANCE/ChemDFM-13B-v1.0"
+model_name_or_id = "OpenDFM/ChemDFM-v1.5-8B"
 tokenizer = LlamaTokenizer.from_pretrained(model_name_or_id)
 model = LlamaForCausalLM.from_pretrained(model_name_or_id, torch_dtype=torch.float16, device_map="auto")
 
