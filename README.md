@@ -1,4 +1,4 @@
-# ChemDFM-13B: An LLM-Based Dialogue Foundation Model for Chemistry
+# ChemDFM: An Large Language Foundation Model for Chemistry
 
 ![Main Image](https://github.com/OpenDFM/ChemDFM/raw/main/docs/static/images/main.png)
 
@@ -9,7 +9,7 @@ ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry a
 * **2024-11-09**: [ChemDFM-v1.5-8B](https://huggingface.co/OpenDFM/ChemDFM-v1.5-8B) is released! We implemented our domain pre-training and instruction tuning precedure on a stronger base model LLaMA-3-8B.
 * **2024-06-13**: The results on the comprehensive science benchmark [SciKnowEval](https://huggingface.co/datasets/hicai-zju/SciKnowEval) show that "ChemDFM emerged as one of the top open-source models by continuing pre-training and fine-tuning on a vast corpus of scientific literature".
 * **2024-04-17**: The evaluation data (including instructions) we used in our paper is released on [GitHub](https://github.com/OpenDFM/ChemDFM)
-* **2024-03-12**: The parameter of [ChemDFM-13B](https://huggingface.co/OpenDFM/ChemDFM-13B-v1.0) is open-sourced!
+* **2024-03-12**: The parameter of [ChemDFM-v1.0-13B](https://huggingface.co/OpenDFM/ChemDFM-v1.0-13B) is open-sourced!
 * **2024-01-26**: The paper of ChemDFM-13B is released on arXiv: [ChemDFM: Dialogue Foundation Model for Chemistry](https://arxiv.org/abs/2401.14818)
 
 ## Usage Details
