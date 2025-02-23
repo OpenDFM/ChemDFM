@@ -1,5 +1,9 @@
 # ChemDFM: An Large Language Foundation Model for Chemistry
 
+<div style="text-align: center;">
+    <a href="https://doi.org/10.5281/zenodo.14913412"><img src="https://zenodo.org/badge/768631984.svg" alt="DOI"></a>
+</div>
+
 ![Main Image](https://github.com/OpenDFM/ChemDFM/raw/main/docs/static/images/main.png)
 
 ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry and molecule science, which is build based on LLaMa-13B. ChemDFM outperforms the open-sourced LLMs in all the typical tasks of chemistry, and even reach comparable or higher performances of GPT-4. For more details, please refer to [our paper](https://arxiv.org/abs/2401.14818).
