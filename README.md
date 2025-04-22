@@ -1,4 +1,4 @@
-# ChemDFM: An Large Language Foundation Model for Chemistry
+# ChemDFM: A Large Language Foundation Model for Chemistry
 
 <div style="text-align: center;">
     <a href="https://doi.org/10.5281/zenodo.14913412"><img src="https://zenodo.org/badge/768631984.svg" alt="DOI"></a>
@@ -6,11 +6,12 @@
 
 ![Main Image](https://github.com/OpenDFM/ChemDFM/raw/main/docs/static/images/main.png)
 
-ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry and molecule science, which is build based on LLaMa-13B. ChemDFM outperforms the open-sourced LLMs in all the typical tasks of chemistry, and even reach comparable or higher performances of GPT-4. For more details, please refer to [our paper](https://arxiv.org/abs/2401.14818).
+ChemDFM is the pioneering open-sourced dialogue foundation model for Chemistry and molecular science, which is built based on LLaMa-13B. ChemDFM outperforms the open-sourced LLMs in all the typical tasks of chemistry, and even reaches comparable or higher performances to GPT-4. For more details, please refer to [our paper](https://arxiv.org/abs/2401.14818).
 
 ## News
 
-* **2024-11-09**: [ChemDFM-v1.5-8B](https://huggingface.co/OpenDFM/ChemDFM-v1.5-8B) is released! We implemented our domain pre-training and instruction tuning precedure on a stronger base model LLaMA-3-8B.
+* **2025-04-16**: Our paper is accepted by *Cell Report Physical Science*. The published version can be accessed [HERE](https://www.sciencedirect.com/science/article/pii/S2666386425001225)
+* **2024-11-09**: [ChemDFM-v1.5-8B](https://huggingface.co/OpenDFM/ChemDFM-v1.5-8B) is released! We implemented our domain pre-training and instruction tuning procedure on a stronger base model LLaMA-3-8B.
 * **2024-06-13**: The results on the comprehensive science benchmark [SciKnowEval](https://huggingface.co/datasets/hicai-zju/SciKnowEval) show that "ChemDFM emerged as one of the top open-source models by continuing pre-training and fine-tuning on a vast corpus of scientific literature".
 * **2024-04-17**: The evaluation data (including instructions) we used in our paper is released on [GitHub](https://github.com/OpenDFM/ChemDFM)
 * **2024-03-12**: The parameter of [ChemDFM-v1.0-13B](https://huggingface.co/OpenDFM/ChemDFM-v1.0-13B) is open-sourced!
@@ -89,7 +90,7 @@ def canonicalize_smiles(smiles):
 
 ### Chemical Benchmarks
 
-We evaluate the performance of ChemDFM-13B on multiple widely-used benchmarks in chemistry. The detail introduction of the benchmarks can be found in [our paper](https://arxiv.org/abs/2401.14818). The overall performance of ChemDFM-13B is shown below:
+We evaluate the performance of ChemDFM-13B on multiple widely used benchmarks in chemistry. The detailed introduction of the benchmarks can be found in [our paper](https://arxiv.org/abs/2401.14818). The overall performance of ChemDFM-13B is shown below:
 
 ![Objective Performance](https://github.com/OpenDFM/ChemDFM/raw/main/docs/static/images/objective_performances.png) 
 
