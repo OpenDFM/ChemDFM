@@ -112,13 +112,14 @@ initial solution given by ChemDFM results in both carbonyl groups being oxidized
 
 ## Citation
 ```bibtex
-@misc{zhao2024chemdfm,
-    title={ChemDFM: Dialogue Foundation Model for Chemistry},
-    author={Zihan Zhao and Da Ma and Lu Chen and Liangtai Sun and Zihao Li and Hongshen Xu and Zichen Zhu and Su Zhu and Shuai Fan and Guodong Shen and Xin Chen and Kai Yu},
-    year={2024},
-    eprint={2401.14818},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{zhao2025developing,
+  title={Developing ChemDFM as a large language foundation model for chemistry},
+  author={Zhao, Zihan and Ma, Da and Chen, Lu and Sun, Liangtai and Li, Zihao and Xia, Yi and Chen, Bo and Xu, Hongshen and Zhu, Zichen and Zhu, Su and others},
+  journal={Cell Reports Physical Science},
+  volume={6},
+  number={4},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
